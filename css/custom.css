@@ -1,0 +1,49 @@
+
+/*미디어 쿼리 - 화면이 767.98 픽셀 보다 낮으면 괄호 밑에 효과가 작동
+                현재 사이즈는 일반 스마트폰 가로 세로 화면 커버용 사이즈.
+*/
+@media (max-width: 767.98px){
+    
+    /*프로필 이미지 쪽*/
+    .profile-img{
+        width: 100%;
+    }
+    
+    .profile-img > img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+        
+    }
+    
+    /*프로필 텍스트 쪽*/
+    .profile-text{
+        text-align: center;
+        margin-left: 0!important;
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+        width:100%;
+    }
+    
+    .profile-text >h1 {
+        font-size: 2.3rem;
+    }
+    .profile-text >h2 {
+        font-size: 2rem;
+        color:blue;
+        
+    }
+    .profile-text >h5 {
+        font-size: 1.8rem;
+    }
+    
+    
+    
+}
+.gallery{
+        width:100%;
+        height:250px;
+        object-fit: :cover;
+        margin-bottom: 7px;
+        margin-top: 7px;
+    }
